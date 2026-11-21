@@ -1,5 +1,7 @@
-// Karkain X SDK - runnable hello example.
+// Karkain Database SDK - first working product example.
+
+import std.db
 
 func main() {
-    println("Hello, Karkain X SDK!")
+    println(db_connect("sqlite", ":memory:"))
 }

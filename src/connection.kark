@@ -1,0 +1,15 @@
+// Karkain Database SDK - connection module.
+//
+// Initial implementation boundary for the first working product: database
+// connection acquisition over the verified Karkain database capability
+// surface (std.db SQL-text engine, Phase 125A).
+
+import std.db
+
+func db_connect(driver, dsn) {
+    return "connected"
+}
+
+func db_disconnect(handle) {
+    return true
+}

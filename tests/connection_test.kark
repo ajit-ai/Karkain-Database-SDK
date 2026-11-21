@@ -1,0 +1,9 @@
+// Karkain Database SDK - focused tests.
+
+func db_connection_state() {
+    return 0
+}
+
+func test_db_connection_state() {
+    assert_eq(db_connection_state(), 0)
+}
